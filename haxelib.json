@@ -1,0 +1,14 @@
+{
+  "name": "fe",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["uhu", "uhx", "fe", "lexer", "ast", "parser", "html"],
+  "description": "A macro method to construct HTML chunks.",
+  "contributors": ["skial"],
+  "releasenote": "Initial Release",
+  "version": "0.0.1-alpha",
+  "url": "https://github.com/skial/fe",
+  "dependencies": {
+		"mo": ""
+  }
+}
