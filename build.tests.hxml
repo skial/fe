@@ -1,0 +1,8 @@
+-lib fe
+-lib utest
+-cp tests
+-main Main
+
+--each
+
+-neko bin/spec.n
