@@ -37,7 +37,7 @@ Haxe Syntax | Html Result
 `html > (head > meta[charset=utf-8]) + (body > p > "Hello World")` | ```<html>
 	<head>
 		<meta charset="utf-8" />
-	</head>`
+	</head>
 	<body>
 		<p>
 			Hello World
