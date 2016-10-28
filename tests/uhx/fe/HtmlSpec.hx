@@ -67,4 +67,9 @@ class HtmlSpec {
 		Assert.equals( '<html>\n\t<head></head>\n\t<body></body>\n</html>', value );
 	}
 	
+	public function testParentheses() {
+		var value = html(html > (head > meta[charset=utf-8]) + (body > 'test'));
+		Assert.equals( '<html>\n\t<head>\n\t\t<meta charset="utf-8" />\n\t</head>\n\t<body>\n\t\ttest\n\t</body>\n</html>', value );
+	}
+	
 }

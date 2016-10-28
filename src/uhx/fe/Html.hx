@@ -24,7 +24,6 @@ class Html {
 		var results = switch expr {
 			case macro $e1 > $e2:
 				var tags = transform( e1, transform( e2, last ) );
-				
 				tags;
 				
 			case macro $e1 + $e2:
@@ -36,6 +35,9 @@ class Html {
 				for (x in sibling) children.push( x );
 				
 				children;
+				
+			case _.expr => EParenthesis(e):
+				transform(e);
 				
 			case _.expr => EConst(CIdent(name)):
 				var parent = new HtmlRef( 
