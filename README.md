@@ -2,6 +2,13 @@
 
 > Haitian Creole for `make`.
 
+## Dependencies
+
+The latest git versions of the latest libraries.
+
+- [`hxparse`](http://github.com/Simn/hxparse/)
+- [`mo`](http://github.com/skial/mo)
+
 ## Installation
 
 With haxelib git.
