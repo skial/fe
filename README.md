@@ -34,17 +34,7 @@ Haxe Syntax | Html Result
 `link[rel="stylesheet"][href="/css/normalize.css"]` | `<link rel="stylesheet" href="/css/normalize.css" />`
 `html > body` | `<html><body></body></html>`
 `head + body` | `<head></head><body></body>`
-`html > (head > meta[charset=utf-8]) + (body > p > "Hello World")` | ```<html>
-	<head>
-		<meta charset="utf-8" />
-	</head>
-	<body>
-		<p>
-			Hello World
-		</p>
-	</body>
-</html>
-```
+`html > (head > meta[charset=utf-8]) + (body > p > "Hello World")` | `<html><head><meta charset="utf-8" /></head><body><p>Hello World</p></body></html>`
 
 ### Example
 
